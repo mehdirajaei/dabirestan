@@ -1,2 +1,4 @@
-import React from 'react'
-export default function App(){return <h1 className="text-center mt-20 text-2xl">بازی‌های ریاضی</h1>}
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Math Games</title></head>
+<body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body></html>
