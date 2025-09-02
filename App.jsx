@@ -1,2 +1,15 @@
 import React from 'react'
-export default function App(){return <h1 className="text-center mt-20 text-2xl">بازی‌های ریاضی</h1>}
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home.jsx'
+import Game from './pages/Game.jsx'
+
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/game/:id" element={<Game />} />
+      </Routes>
+    </Router>
+  )
+}
